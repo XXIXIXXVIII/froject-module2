@@ -1,0 +1,64 @@
+.bgrmovieDetail{
+  background-image: linear-gradient(270deg, rgba(17, 19, 25, 0) 0%, rgba(17, 19, 25, 0.05) 16%, rgba(17, 19, 25, 0.2) 30%, rgba(17, 19, 25, 0.39) 43%, rgba(17, 19, 25, 0.61) 55%, rgba(17, 19, 25, 0.8) 68%, rgba(17, 19, 25, 0.95) 82%, #000 98%);
+}
+.bgrmovieDetailBot{
+  background-image:linear-gradient(179deg, rgba(17, 19, 25, 0) 1%, rgba(17, 19, 25, 0.05) 17%, rgba(17, 19, 25, 0.2) 31%, rgba(17, 19, 25, 0.39) 44%, rgba(17, 19, 25, 0.61) 56%, rgba(17, 19, 25, 0.8) 69%, rgba(17, 19, 25, 0.95) 83%, #000 97%);
+}
+
+.releaseDate{
+  position: relative;
+}
+
+.releaseDate::before, .runtime::before{
+  content: "";
+  width: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -12px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+  position: absolute;
+}
+.runtime{
+  position: relative;
+}
+.navBar{
+  position: relative;
+}
+.navBar::before{
+  content: "";
+  width: 100%;
+  height: 1px;
+
+  bottom: 0;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.15;
+  position: absolute;
+}
+
+.navItem{
+  cursor: pointer;
+  opacity: 0.6;
+}
+.navItem:hover{
+  opacity: 1;
+}
+.navItem:focus{
+  color: red;
+}
+.Recomment{
+  transition: all 0.3s ease 0.3s
+}
+.list-keySearch li:not(:first-child) {
+  border-left: 1px solid grey;
+}
+.myList{
+  transition: all 0.4s ease 0.4s
+}
+.mask{
+  background-image: linear-gradient(rgba(26, 28, 34, 0) 0%, rgba(26, 28, 34, 0.06) 6%, rgba(26, 28, 34, 0.12) 12%, rgba(26, 28, 34, 0.19) 19%, rgba(26, 28, 34, 0.26) 26%, rgba(26, 28, 34, 0.34) 34%, rgba(26, 28, 34, 0.42) 42%, rgba(26, 28, 34, 0.5) 50%, rgba(26, 28, 34, 0.58) 58%, rgba(26, 28, 34, 0.66) 66%, rgba(26, 28, 34, 0.74) 74%, rgba(26, 28, 34, 0.81) 81%, rgba(26, 28, 34, 0.88) 88%, rgba(26, 28, 34, 0.94) 94%, rgb(26, 28, 34) 100%);
+}
+.cancelMember{
+  background-image: linear-gradient(180deg,#e6e6e6,#ddd);
+    box-shadow: 0 1px 0 rgba(0,0,0,.2);
+}
